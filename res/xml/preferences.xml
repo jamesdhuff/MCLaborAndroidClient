@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <EditTextPreference
+                android:name="Labor Services URL"
+                android:summary="The URL of the MCLabor Webservice"
+                android:defaultValue="http://marshallconcrete.no-ip.org/MCLaborServer/LaborService.svc"
+                android:title="Labor Service URL"
+                android:key="laborSvcUrl" />
+    
+
+</PreferenceScreen>
